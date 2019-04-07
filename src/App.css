@@ -1,0 +1,77 @@
+* { box-sizing: border-box; }
+body {
+  font: 20px Arial; 
+}
+
+
+
+.hidden {
+  visibility: hidden;
+}
+
+.autocomplete, .container, .form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.textarea {
+  height: 50px;
+  font-size: 26px;
+  width: 30vw;
+  margin-top: 10px;
+}
+
+.submit {
+  width:15vw;
+  font-size:20px;
+  margin:10px;
+  background: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline:none;
+  cursor: pointer;
+}
+
+.list {
+  padding: 10px 0;
+  list-style: none;
+  background-color: #e6ffff;
+  width: 30vw;
+}
+
+.accordion{
+  width:80vw;
+}
+
+.accordion-element {
+  background:#003040;
+  background: linear-gradient(#003040, #002535);
+  padding: 5px 10px;
+  color: #ecf0f1;
+  box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+
+.accordion-element:hover {
+  text-shadow: 0 0 1px rgba(250, 255, 255, 0.7);
+}
+
+.accodion-element-description {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 27px;
+  display: block;
+  padding: 0 15px;
+}
+
+.error{
+  color:red;
+  font-weight:bold;
+}
